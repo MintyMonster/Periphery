@@ -19,6 +19,8 @@ public class Target : MonoBehaviour
 
     static public bool isLookedAt = false;
 
+    private bool hasPlayed = false;
+
     private void Update() {
         
         if(isLookedAt) {
@@ -34,7 +36,13 @@ public class Target : MonoBehaviour
 
         if (time <= 0f) {
 
-            source.PlayOneShot(clip);
+            if(!hasPlayed) {
+                source.PlayOneShot(clip);
+                hasPlayed = true;
+                pillarcomplete.Play();
+            }
+
+           
 
         }
     }
