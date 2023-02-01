@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Target : MonoBehaviour
@@ -25,14 +26,12 @@ public class Target : MonoBehaviour
         
         if(isLookedAt) {
            
-         time -= Time.deltaTime;
+            time -= Time.deltaTime;
             
         }
         if (!isLookedAt) {
             time = timeStore;
         }
-
-        Debug.Log(isLookedAt);
 
         if (time <= 0f) {
 
@@ -40,13 +39,17 @@ public class Target : MonoBehaviour
                 source.PlayOneShot(clip);
                 hasPlayed = true;
                 pillarcomplete.Play();
+
+                // AI reset
+                GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+                enemies.ToList().ForEach(x =>
+                {
+                    x.GetComponent<SeenMeter>().Seen = false;
+                    x.GetComponent<EnemyAI>().HandleRandomRoam();
+                    x.GetComponent<SeenMeter>().SeenGauge = 0;
+                });
             }
-
-           
-
         }
     }
-
-    
-
 }
