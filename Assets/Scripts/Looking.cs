@@ -23,9 +23,11 @@ public class Looking : MonoBehaviour
             if(hit.transform.name != "Pillar") {
                 Target.isLookedAt = false;
             }
+
+            
         }
 
-
+        
     }
 
 
