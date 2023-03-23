@@ -23,6 +23,9 @@ public class PickerLookContoller : MonoBehaviour
     }
 
     private void OnMouseOver() {
-        theRP.pillarLookedAt(thisPillarNumber);
+        if (Input.GetKeyDown(KeyCode.E)) {
+            theRP.pillarLookedAt(thisPillarNumber);
+        }
+        
     }
 }

@@ -32,6 +32,10 @@ public class RandomPicker : MonoBehaviour
 
     private int positionInSequence;
 
+    private bool gameActive;
+
+    private int inputInSequence;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,12 +70,13 @@ public class RandomPicker : MonoBehaviour
 
             if(positionInSequence >= activeSequence.Count) {
                 shouldBeDark = false;
+                gameActive = true;
             } else {
                 if(waitBetweenCounter < 0) {
 
-                    pillarSelect = Random.Range(0, pillars.Length);
+                    //pillarSelect = Random.Range(0, pillars.Length);
 
-                    activeSequence.Add(pillarSelect);
+                    //activeSequence.Add(pillarSelect);
 
                     pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
 
@@ -90,7 +95,7 @@ public class RandomPicker : MonoBehaviour
     public void StartGame() {
 
         positionInSequence = 0;
-
+        inputInSequence = 0;
         pillarSelect = Random.Range(0, pillars.Length);
 
         activeSequence.Add(pillarSelect);
@@ -99,17 +104,46 @@ public class RandomPicker : MonoBehaviour
 
         stayLitCounter = stayLit;
         shouldBeLit = true;
+        
     }
 
     public void pillarLookedAt(int whichPillar) {
 
-        if(pillarSelect == whichPillar) {
+        if (gameActive) {
 
-            Debug.Log("Correct");
 
-        } else {
-            Debug.Log("Wrong");
+
+            if (activeSequence[inputInSequence] == whichPillar) {
+
+                Debug.Log("Correct");
+
+                inputInSequence++;
+
+                if(inputInSequence >= activeSequence.Count) {
+
+                    positionInSequence = 0;
+                    inputInSequence = 0;
+
+                    pillarSelect = Random.Range(0, pillars.Length);
+
+                    activeSequence.Add(pillarSelect);
+
+                    pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
+
+                    stayLitCounter = stayLit;
+                    shouldBeLit = true;
+
+                    gameActive = false;
+                }
+            }
+            else {
+                Debug.Log("Wrong");
+
+
+            }
         }
+
+       
 
     }
 
