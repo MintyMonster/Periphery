@@ -97,8 +97,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b119030b12f242449b2959a7237d525f,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 9dccb09af1aab6f4eb2f344fd08b102b,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -365,7 +367,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -499,7 +501,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -822,7 +824,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -930,7 +932,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1017,7 +1019,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50075eaf8bf23244aa9c111cbd97d6c4,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -1115,6 +1117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2023,7 +2030,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50075eaf8bf23244aa9c111cbd97d6c4,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2181,7 +2188,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2268,7 +2275,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2340,6 +2347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2421,7 +2433,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -2713,6 +2725,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3029,7 +3046,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3187,7 +3204,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3364,6 +3381,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1375871043, guid: 4dc1e4dcf8cb338489f8233744e41fb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3813870828228051208, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
         type: 3}
       propertyPath: m_RootOrder
@@ -3428,6 +3449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586432311434828722, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -3666,7 +3692,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4012,7 +4038,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4093,7 +4119,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4227,7 +4253,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4248,7 +4274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &163233924
 Transform:
@@ -4649,7 +4675,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4752,6 +4778,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -4904,6 +4935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5133,7 +5169,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5267,7 +5303,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5644,7 +5680,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4660fe4d8df60154bb5c3e529848ff40,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5747,6 +5783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -5935,7 +5976,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -6043,7 +6084,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -6549,7 +6590,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -6626,6 +6667,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -6707,7 +6753,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -6783,7 +6829,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8e435ff9f10dcb4e80a040864cbbe1f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
@@ -6878,7 +6924,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50075eaf8bf23244aa9c111cbd97d6c4,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -7054,6 +7100,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -7155,6 +7206,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -7528,7 +7584,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -7819,7 +7875,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -7896,6 +7952,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -8229,7 +8290,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -8337,7 +8398,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -9041,7 +9102,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 53f204e151a84264bb09ee93d98cee84,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -9149,7 +9210,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -9278,6 +9339,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -9437,7 +9503,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -10240,7 +10306,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -10348,7 +10414,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -10425,6 +10491,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -10716,7 +10787,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -10798,7 +10869,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11087,6 +11158,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -11224,7 +11300,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11382,7 +11458,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11454,6 +11530,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11535,7 +11616,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11607,6 +11688,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11693,7 +11779,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11775,6 +11861,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11861,7 +11952,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -11995,7 +12086,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -12103,7 +12194,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -12282,7 +12373,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -12358,7 +12449,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -12461,6 +12552,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -12618,7 +12714,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -12694,7 +12790,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -12929,7 +13025,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -13011,7 +13107,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -13472,6 +13568,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1375871043, guid: 4dc1e4dcf8cb338489f8233744e41fb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3813870828228051208, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
         type: 3}
       propertyPath: m_RootOrder
@@ -13536,6 +13636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586432311434828722, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -13721,7 +13826,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -13931,7 +14036,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -14094,7 +14199,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -14176,7 +14281,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -14263,6 +14368,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bookshelf (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 559c9a5455cfd0b4d9f7d88d7e3b4ea2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -14370,7 +14480,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -14533,7 +14643,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15039,7 +15149,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15147,7 +15257,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15229,7 +15339,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15307,6 +15417,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -15383,6 +15498,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -15453,6 +15573,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15539,7 +15664,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50075eaf8bf23244aa9c111cbd97d6c4,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15652,6 +15777,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: curtain_closed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15805,6 +15935,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -15885,7 +16020,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -15967,7 +16102,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -16075,7 +16210,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -16183,7 +16318,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -16275,6 +16410,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: candle_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -16387,7 +16527,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -16495,7 +16635,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -16691,6 +16831,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: curtain_closed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 340ac5b0a7a98034d8a4147af4d5db53, type: 3}
@@ -16776,7 +16921,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -16915,7 +17060,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4660fe4d8df60154bb5c3e529848ff40,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -17151,6 +17296,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
@@ -17352,6 +17502,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: table
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 53f204e151a84264bb09ee93d98cee84,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 53f204e151a84264bb09ee93d98cee84, type: 3}
@@ -17437,7 +17592,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 24d574f7395e0db4ebc3389c21a757bf,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -17519,7 +17674,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -17815,7 +17970,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -17923,7 +18078,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -18281,7 +18436,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -18358,6 +18513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -18439,7 +18599,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -18675,7 +18835,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -18733,6 +18893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5397459600997994154, guid: f5025b3d339cbc94080621dc227bf507,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5397459600997994157, guid: f5025b3d339cbc94080621dc227bf507,
         type: 3}
@@ -18880,7 +19045,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -19064,6 +19229,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -19272,7 +19442,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -19482,7 +19652,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -19564,7 +19734,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -19646,7 +19816,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -19728,7 +19898,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -19960,6 +20130,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -19996,7 +20171,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684743676}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -20040,7 +20215,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -20407,6 +20582,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -20632,6 +20812,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -20897,6 +21082,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -21237,7 +21427,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -21625,7 +21815,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -21783,7 +21973,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22095,7 +22285,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22203,7 +22393,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22290,7 +22480,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ea42203a84026ef46a21e36b5c0030f7,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22377,7 +22567,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22621,7 +22811,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ea42203a84026ef46a21e36b5c0030f7,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22812,7 +23002,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4660fe4d8df60154bb5c3e529848ff40,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -22920,7 +23110,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -23285,7 +23475,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -23367,7 +23557,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -23533,6 +23723,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bookshelf
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 559c9a5455cfd0b4d9f7d88d7e3b4ea2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 559c9a5455cfd0b4d9f7d88d7e3b4ea2, type: 3}
@@ -23618,7 +23813,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -23828,7 +24023,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -23962,7 +24157,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -24141,6 +24336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -24283,6 +24483,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -24436,6 +24641,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: photo_frame (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37b2e077829bc514e8dab82151e35a31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b2e077829bc514e8dab82151e35a31, type: 3}
@@ -24507,6 +24717,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -24543,7 +24758,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854963532}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -24587,7 +24802,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -24767,7 +24982,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -24936,7 +25151,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -25070,7 +25285,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -25674,7 +25889,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -25782,7 +25997,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -26153,6 +26368,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -26189,7 +26409,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923082709}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -26233,7 +26453,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -26630,7 +26850,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -26712,7 +26932,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -26794,7 +27014,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -26876,7 +27096,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -27034,7 +27254,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -27141,7 +27361,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -27297,6 +27517,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -27377,7 +27602,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -27592,7 +27817,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -27761,7 +27986,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -28111,6 +28336,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -28181,6 +28411,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: curtain_pole
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8e435ff9f10dcb4e80a040864cbbe1f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -28267,7 +28502,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 24d574f7395e0db4ebc3389c21a757bf,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -28508,7 +28743,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -28585,6 +28820,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -29040,7 +29280,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -29633,7 +29873,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -29706,6 +29946,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -29742,7 +29987,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041996743}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -29786,7 +30031,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -30001,6 +30246,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: chest_low (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cc28adc58d8d3654180b5616876caf0f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -30255,7 +30505,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -30614,7 +30864,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -30794,6 +31044,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1375871043, guid: 4dc1e4dcf8cb338489f8233744e41fb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3813870828228051208, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
         type: 3}
       propertyPath: m_RootOrder
@@ -30858,6 +31112,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586432311434828722, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -31215,7 +31474,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -31297,7 +31556,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -31518,7 +31777,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -31643,6 +31902,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: door (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e94869518da0f28459c471cd25731033, type: 3}
@@ -31728,7 +31992,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -32582,7 +32846,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -32673,7 +32937,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -32862,7 +33126,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -32949,7 +33213,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -33057,7 +33321,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -33139,7 +33403,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -33215,7 +33479,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -33287,6 +33551,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -33368,7 +33637,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -34135,7 +34404,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4660fe4d8df60154bb5c3e529848ff40,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -34293,6 +34562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -34502,7 +34776,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -34589,7 +34863,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -34671,7 +34945,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -34764,7 +35038,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -34846,7 +35120,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -35052,6 +35326,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -35169,6 +35448,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: curtain_closed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 340ac5b0a7a98034d8a4147af4d5db53, type: 3}
@@ -35249,7 +35533,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -35388,7 +35672,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -35502,6 +35786,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: curtain_closed (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 340ac5b0a7a98034d8a4147af4d5db53, type: 3}
@@ -35582,7 +35871,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -35732,6 +36021,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -35910,6 +36204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -36197,7 +36496,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -36409,7 +36708,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -36782,7 +37081,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -37060,6 +37359,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: piano
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 225e004fcd9033f499476fa5685cd984,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 225e004fcd9033f499476fa5685cd984, type: 3}
@@ -37160,7 +37464,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -37289,6 +37593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -37631,7 +37940,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -37718,7 +38027,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -37867,6 +38176,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -38076,7 +38390,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -38179,6 +38493,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -38347,7 +38666,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -38587,7 +38906,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -38715,7 +39034,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -38808,6 +39127,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair2_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdbd6cba9ce046646aeb3293b6e5f9ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -38936,6 +39260,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -39283,7 +39612,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -39355,6 +39684,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: vase_low (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e7149649eb9a224e880ad0086724e77,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -39441,7 +39775,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4660fe4d8df60154bb5c3e529848ff40,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -39687,7 +40021,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -39952,7 +40286,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -40224,7 +40558,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -40332,7 +40666,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -40756,7 +41090,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -40915,6 +41249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -41373,6 +41712,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: door (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e94869518da0f28459c471cd25731033, type: 3}
@@ -41453,7 +41797,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -41669,7 +42013,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -41746,6 +42090,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -41832,6 +42181,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: photo_frame (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37b2e077829bc514e8dab82151e35a31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -41961,6 +42315,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -42046,7 +42405,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -42139,6 +42498,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair2_low (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdbd6cba9ce046646aeb3293b6e5f9ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -42367,7 +42731,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -42445,6 +42809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -42459,6 +42828,10 @@ PrefabInstance:
     - target: {fileID: 1016456201, guid: 4dc1e4dcf8cb338489f8233744e41fb7, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1375871043, guid: 4dc1e4dcf8cb338489f8233744e41fb7, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3813870828228051208, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
         type: 3}
@@ -42524,6 +42897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pillar (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4586432311434828722, guid: 4dc1e4dcf8cb338489f8233744e41fb7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -42681,7 +43059,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -42870,7 +43248,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -43156,7 +43534,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -43310,7 +43688,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 0
 --- !u!4 &1515122530
 Transform:
@@ -48367,6 +48745,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -48447,7 +48830,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -48616,7 +48999,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -48693,6 +49076,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -49032,6 +49420,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: bookshelf (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 559c9a5455cfd0b4d9f7d88d7e3b4ea2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 559c9a5455cfd0b4d9f7d88d7e3b4ea2, type: 3}
@@ -49138,7 +49531,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -49220,7 +49613,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -49302,7 +49695,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -49491,7 +49884,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 4660fe4d8df60154bb5c3e529848ff40,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -49828,7 +50221,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -50017,7 +50410,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -50150,7 +50543,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -50313,7 +50706,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -50493,7 +50886,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -50682,7 +51075,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -50921,7 +51314,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -51034,7 +51427,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -51116,7 +51509,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -51300,7 +51693,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -51413,7 +51806,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -51624,15 +52017,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerController
       objectReference: {fileID: 0}
+    - target: {fileID: 4895343297350656210, guid: c99965febda2948479fb6d7ed68c2d31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4895343297533593811, guid: c99965febda2948479fb6d7ed68c2d31,
         type: 3}
       propertyPath: m_Range
-      value: 10
+      value: 16.25
       objectReference: {fileID: 0}
     - target: {fileID: 4895343297533593811, guid: c99965febda2948479fb6d7ed68c2d31,
         type: 3}
       propertyPath: m_Intensity
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4895343297533593811, guid: c99965febda2948479fb6d7ed68c2d31,
         type: 3}
@@ -51648,6 +52046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Shadows.m_Type
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895343297533593813, guid: c99965febda2948479fb6d7ed68c2d31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4895343297764365282, guid: c99965febda2948479fb6d7ed68c2d31,
         type: 3}
@@ -51668,6 +52071,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BackGroundColor.r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4895343297764365287, guid: c99965febda2948479fb6d7ed68c2d31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -51776,6 +52184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -51909,7 +52322,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -52098,7 +52511,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -52261,7 +52674,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -52354,6 +52767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair2_low (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdbd6cba9ce046646aeb3293b6e5f9ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -52507,6 +52925,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -52543,7 +52966,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670298213}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -52587,7 +53010,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -52694,6 +53117,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f644e1d8edc354240a156f1f2d43f607,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -52924,6 +53352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: door (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: e94869518da0f28459c471cd25731033, type: 3}
@@ -53111,7 +53544,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -53219,7 +53652,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -53888,7 +54321,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1722034396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54044,7 +54477,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -54198,7 +54631,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -54250,7 +54683,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727977633}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -54294,7 +54727,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -54456,6 +54889,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -54536,7 +54974,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -54623,7 +55061,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -54757,7 +55195,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -54861,6 +55299,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -54936,6 +55379,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -55299,7 +55747,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -55412,7 +55860,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50075eaf8bf23244aa9c111cbd97d6c4,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -55489,6 +55937,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -55570,7 +56023,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -55657,7 +56110,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -56315,6 +56768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: photo_frame (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 37b2e077829bc514e8dab82151e35a31,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 37b2e077829bc514e8dab82151e35a31, type: 3}
@@ -56421,7 +56879,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -56713,7 +57171,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -57031,7 +57489,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -57185,6 +57643,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -57291,7 +57754,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -57466,6 +57929,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -57502,7 +57970,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820110184}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -57546,7 +58014,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -57961,7 +58429,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -58208,7 +58676,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -58281,6 +58749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -58317,7 +58790,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859023129}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -58361,7 +58834,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -58453,6 +58926,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e94869518da0f28459c471cd25731033,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -58560,7 +59038,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -58734,7 +59212,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -58944,7 +59422,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -59274,6 +59752,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: curtain_closed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 340ac5b0a7a98034d8a4147af4d5db53, type: 3}
@@ -59359,7 +59842,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -59446,7 +59929,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ea42203a84026ef46a21e36b5c0030f7,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -59616,6 +60099,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: chest_low
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cc28adc58d8d3654180b5616876caf0f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cc28adc58d8d3654180b5616876caf0f, type: 3}
@@ -59753,7 +60241,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -59877,6 +60365,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: vase_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e7149649eb9a224e880ad0086724e77,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -60041,6 +60534,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: bookshelf (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 559c9a5455cfd0b4d9f7d88d7e3b4ea2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -60301,7 +60799,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -60383,7 +60881,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -60649,7 +61147,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -60762,7 +61260,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -60963,6 +61461,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -61052,7 +61555,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -61812,7 +62315,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -61894,7 +62397,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -62321,7 +62824,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -62393,6 +62896,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: curtain_closed
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -62500,7 +63008,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -62639,7 +63147,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 50075eaf8bf23244aa9c111cbd97d6c4,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -62835,6 +63343,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -710910164944623929, guid: bdf7fefa1ef081f4ebe01a2947bcd887,
         type: 3}
+    - target: {fileID: -7018296268308104832, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -6959201378215738795, guid: a82585164adfa2041a2621d0106d67bb,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -62847,16 +63360,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -710910164944623929, guid: 559c9a5455cfd0b4d9f7d88d7e3b4ea2,
         type: 3}
+    - target: {fileID: -4340295993488870294, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -2311299377199732350, guid: a82585164adfa2041a2621d0106d67bb,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: -710910164944623929, guid: bdf7fefa1ef081f4ebe01a2947bcd887,
         type: 3}
+    - target: {fileID: -329154143047944570, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a82585164adfa2041a2621d0106d67bb,
         type: 3}
       propertyPath: m_Name
       value: desk_low
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1355726959837647744, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1928238022196113978, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6250407861035576550, guid: a82585164adfa2041a2621d0106d67bb,
         type: 3}
@@ -62864,6 +63402,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -710910164944623929, guid: bdf7fefa1ef081f4ebe01a2947bcd887,
         type: 3}
+    - target: {fileID: 8415039392400275113, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744110552649767312, guid: a82585164adfa2041a2621d0106d67bb,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9002997153392166293, guid: a82585164adfa2041a2621d0106d67bb,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -63232,7 +63780,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 340ac5b0a7a98034d8a4147af4d5db53,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -63421,7 +63969,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -63497,7 +64045,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b8e435ff9f10dcb4e80a040864cbbe1f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
@@ -63582,6 +64130,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -63756,6 +64309,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: curtain_pole (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8e435ff9f10dcb4e80a040864cbbe1f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: b8e435ff9f10dcb4e80a040864cbbe1f,
@@ -63844,7 +64402,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -64080,7 +64638,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -64238,7 +64796,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -64368,6 +64926,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -64453,7 +65016,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ea42203a84026ef46a21e36b5c0030f7,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -64633,6 +65196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: DadoRailMiddle_low (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: a54ed4be36066ca48b9e195d4fb6fe92, type: 3}
@@ -64718,7 +65286,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -64811,6 +65379,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Chair2_low (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdbd6cba9ce046646aeb3293b6e5f9ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -64944,7 +65517,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -65102,7 +65675,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -65381,6 +65954,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: curtain_pole (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8e435ff9f10dcb4e80a040864cbbe1f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: b8e435ff9f10dcb4e80a040864cbbe1f,
@@ -65464,6 +66042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -65669,7 +66252,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -65768,6 +66351,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: candle_low (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdecd2b3257ac574eb76cc9ea69cd08f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdecd2b3257ac574eb76cc9ea69cd08f, type: 3}
@@ -65804,7 +66392,7 @@ Light:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093880500}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
@@ -65848,7 +66436,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -66104,7 +66692,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -66395,7 +66983,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -66477,7 +67065,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -66854,6 +67442,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair2_low (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cdbd6cba9ce046646aeb3293b6e5f9ba,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cdbd6cba9ce046646aeb3293b6e5f9ba, type: 3}
@@ -66939,7 +67532,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -67372,7 +67965,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -67670,7 +68263,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -67772,7 +68365,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -67849,6 +68442,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DadoRailMiddle_low (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a54ed4be36066ca48b9e195d4fb6fe92,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -67961,7 +68559,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bddef504d86a8da4faf7bd528701c46f,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -68150,7 +68748,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -68232,7 +68830,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bb9916b259a54744684d94e5604f92ff,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
