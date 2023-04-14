@@ -332,7 +332,7 @@ public class FirstPersonController : MonoBehaviour
 
         enemies.ToList().ForEach(x =>
         {
-            if ((Vector3.Distance(x.transform.position, gameObject.transform.position) < 2f) && (x.GetComponent<SeenMeter>().Seen))
+            if ((Vector3.Distance(x.transform.position, gameObject.transform.position) < 2.5f) && (x.GetComponent<SeenMeter>().Seen))
             {
                 if (currentLives > 0)
                     RemoveLife();

@@ -18,10 +18,14 @@ public class EnemyAI : MonoBehaviour
 
     private float walkRadius = 40.0f;
     private NavMeshAgent agent;
+    // Added by James for animation
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
+        // Added by James for animation
+        animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
 
         // Set start params
@@ -38,6 +42,21 @@ public class EnemyAI : MonoBehaviour
 
             HandleDestinationReached();
             AgentAhead();
+        }
+
+        if (Speed >= 0.21f)
+        {
+            animator.SetBool("speed", false);
+        }
+
+        if (Speed <= 0.22f)
+        {
+            animator.SetBool("speed", true);
+        }
+
+        if (Speed == 4f)
+        {
+            animator.SetBool("fast", true);
         }
     }
 

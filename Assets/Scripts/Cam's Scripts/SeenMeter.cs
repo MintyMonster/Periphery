@@ -23,12 +23,14 @@ public class SeenMeter : MonoBehaviour
 
     private EnemyAI ai;
     private NavMeshAgent agent;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         ai = GetComponent<EnemyAI>();
         agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -36,6 +38,18 @@ public class SeenMeter : MonoBehaviour
     {
         AddSpeed();
         if (Seen) agent.SetDestination(player.position);
+
+        if (SeenGauge >= 0.1f)
+        {
+            animator.SetBool("isNoticed", true);
+           
+        }
+
+        if (SeenGauge <= 0.2f)
+        {
+            animator.SetBool("isNoticed", false);
+        }
+        
     }
 
     /// <summary>
@@ -43,7 +57,7 @@ public class SeenMeter : MonoBehaviour
     /// Max 80 Seen / 4 speed
     /// </summary>
     private void AddSpeed() 
-        => ai.Speed = SeenGauge <= 80 && Seen ? SeenGauge / 20 : !Seen ? 0.2f : 4f;
+        => ai.Speed = SeenGauge <= 80 && Seen ? SeenGauge / 20 : !Seen ? 0.2f : 5f;
 
     /// <summary>
     /// Adds 2 to the "Seen" gauge
@@ -57,4 +71,5 @@ public class SeenMeter : MonoBehaviour
     /// <param name="amount"></param>
     public void SetSeen(float amount) 
         => SeenGauge = amount;
+
 }
