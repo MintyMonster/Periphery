@@ -35389,6 +35389,7 @@ MonoBehaviour:
   shouldBeLit: 0
   shouldBeDark: 0
   activeSequence: 
+  gameCompleteNumber: 0
 --- !u!4 &1200582584
 Transform:
   m_ObjectHideFlags: 0
@@ -49115,6 +49116,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5397459600997994154, guid: f5025b3d339cbc94080621dc227bf507,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5397459600997994157, guid: f5025b3d339cbc94080621dc227bf507,
         type: 3}

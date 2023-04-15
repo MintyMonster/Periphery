@@ -36,6 +36,8 @@ public class RandomPicker : MonoBehaviour
 
     private int inputInSequence;
 
+    public int gameCompleteNumber = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,17 +45,16 @@ public class RandomPicker : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(shouldBeLit) {
+    void Update() {
+        if (shouldBeLit) {
 
             stayLitCounter -= Time.deltaTime;
-        
-            if(stayLitCounter < 0) {
+
+            if (stayLitCounter < 0) {
 
 
 
-                pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = true;
+                pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
 
                 shouldBeLit = false;
 
@@ -62,23 +63,23 @@ public class RandomPicker : MonoBehaviour
 
                 positionInSequence++;
             }
-            
+
         }
-        if(shouldBeDark) {
+        if (shouldBeDark) {
 
             waitBetweenCounter -= Time.deltaTime;
 
-            if(positionInSequence >= activeSequence.Count) {
+            if (positionInSequence >= activeSequence.Count) {
                 shouldBeDark = false;
                 gameActive = true;
             } else {
-                if(waitBetweenCounter < 0) {
+                if (waitBetweenCounter < 0) {
 
                     //pillarSelect = Random.Range(0, pillars.Length);
 
                     //activeSequence.Add(pillarSelect);
 
-                    pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
+                    pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = true;
 
                     stayLitCounter = stayLit;
                     shouldBeLit = true;
@@ -87,6 +88,10 @@ public class RandomPicker : MonoBehaviour
 
             }
 
+        }
+
+        if (gameCompleteNumber == 4) {
+            GameCompleteManager.pickerGameComplete = true;
         }
 
 
@@ -100,7 +105,7 @@ public class RandomPicker : MonoBehaviour
 
         activeSequence.Add(pillarSelect);
 
-        pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
+        pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = true;
 
         stayLitCounter = stayLit;
         shouldBeLit = true;
@@ -119,6 +124,8 @@ public class RandomPicker : MonoBehaviour
 
                 inputInSequence++;
 
+                
+
                 if(inputInSequence >= activeSequence.Count) {
 
                     positionInSequence = 0;
@@ -128,7 +135,9 @@ public class RandomPicker : MonoBehaviour
 
                     activeSequence.Add(pillarSelect);
 
-                    pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
+                    gameCompleteNumber++;
+
+                    pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = true;
 
                     stayLitCounter = stayLit;
                     shouldBeLit = true;
