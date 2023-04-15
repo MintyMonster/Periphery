@@ -40,6 +40,8 @@ public class Target : MonoBehaviour
                 hasPlayed = true;
                 pillarcomplete.Play();
 
+                GameCompleteManager.bongPillarComplete = true;
+
                 // AI reset
                 GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
