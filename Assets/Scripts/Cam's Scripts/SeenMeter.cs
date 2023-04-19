@@ -57,7 +57,7 @@ public class SeenMeter : MonoBehaviour
     /// Max 80 Seen / 4 speed
     /// </summary>
     private void AddSpeed() 
-        => ai.Speed = SeenGauge <= 80 && Seen ? SeenGauge / 20 : !Seen ? 0.2f : 5f;
+        => ai.Speed = SeenGauge <= 80 && Seen ? SeenGauge / 20 : !Seen ? 0.5f : 5f;
 
     /// <summary>
     /// Adds 2 to the "Seen" gauge

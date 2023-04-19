@@ -29,7 +29,7 @@ public class EnemyAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
 
         // Set start params
-        Speed = Random.Range(0.2f, 0.7f);
+        Speed = Random.Range(0.5f, 0.7f);
         agent.speed = Speed; // random start speed. Adds "Game depth"
     }
 
@@ -44,12 +44,12 @@ public class EnemyAI : MonoBehaviour
             AgentAhead();
         }
 
-        if (Speed >= 0.21f)
+        if (Speed >= 0.51f)
         {
             animator.SetBool("speed", false);
         }
 
-        if (Speed <= 0.22f)
+        if (Speed <= 0.52f)
         {
             animator.SetBool("speed", true);
         }
