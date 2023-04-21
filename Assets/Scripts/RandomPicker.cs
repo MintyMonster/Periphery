@@ -38,6 +38,9 @@ public class RandomPicker : MonoBehaviour
 
     public int gameCompleteNumber = 0;
 
+    private bool hasSoundPlayed = false;
+    
+
     [SerializeField]
     private Material  gameCompleteMaterial;
 
@@ -50,60 +53,79 @@ public class RandomPicker : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    private void OnTriggerEnter(Collider other) {
         StartGame();
     }
 
     // Update is called once per frame
     void Update() {
-        if (shouldBeLit) {
 
-            stayLitCounter -= Time.deltaTime;
+        if(gameCompleteNumber != 5) {
+            if (shouldBeLit) {
 
-            if (stayLitCounter < 0) {
+                stayLitCounter -= Time.deltaTime;
+
+                if (stayLitCounter < 0) {
 
 
 
-                pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
+                    pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = false;
 
-                shouldBeLit = false;
+                    shouldBeLit = false;
 
-                shouldBeDark = true;
-                waitBetweenCounter = waitBetweenLight;
+                    shouldBeDark = true;
+                    waitBetweenCounter = waitBetweenLight;
 
-                positionInSequence++;
-            }
-
-        }
-        if (shouldBeDark) {
-
-            waitBetweenCounter -= Time.deltaTime;
-
-            if (positionInSequence >= activeSequence.Count) {
-                shouldBeDark = false;
-                gameActive = true;
-            } else {
-                if (waitBetweenCounter < 0) {
-
-                    //pillarSelect = Random.Range(0, pillars.Length);
-
-                    //activeSequence.Add(pillarSelect);
-
-                    pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = true;
-
-                    stayLitCounter = stayLit;
-                    shouldBeLit = true;
-                    shouldBeDark = false;
+                    positionInSequence++;
                 }
 
             }
+            if (shouldBeDark) {
 
+                waitBetweenCounter -= Time.deltaTime;
+
+                if (positionInSequence >= activeSequence.Count) {
+                    shouldBeDark = false;
+                    gameActive = true;
+                }
+                else {
+                    if (waitBetweenCounter < 0) {
+
+                        //pillarSelect = Random.Range(0, pillars.Length);
+
+                        //activeSequence.Add(pillarSelect);
+
+                        pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = true;
+
+                        stayLitCounter = stayLit;
+                        shouldBeLit = true;
+                        shouldBeDark = false;
+                    }
+
+                }
+
+            }
         }
+       
 
         if (gameCompleteNumber == 5) {
             GameCompleteManager.pickerGameComplete = true;
             foreach(var pillar in pillars) {
                 pillar.GetComponent<MeshRenderer>().material = gameCompleteMaterial;
+
+                pillar.GetComponent<Light>().enabled = false;
+
             }
+
+            if (!hasSoundPlayed) {
+                source.PlayOneShot(clip);
+                hasSoundPlayed = true;
+            }
+
+            gameActive = false;
         }
 
 

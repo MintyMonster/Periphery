@@ -17,5 +17,10 @@ public class GameCompleteManager : MonoBehaviour
     void Update()
     {
         
+        if(pickerGameComplete & bongPillarComplete & lightGameComplete) {
+            Debug.Log("Yummers");
+        }
+
+
     }
 }
