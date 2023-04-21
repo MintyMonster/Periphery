@@ -38,6 +38,15 @@ public class RandomPicker : MonoBehaviour
 
     public int gameCompleteNumber = 0;
 
+    [SerializeField]
+    private Material  gameCompleteMaterial;
+
+    [SerializeField]
+    private AudioSource source;
+
+    [SerializeField]
+    private AudioClip clip;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -90,8 +99,11 @@ public class RandomPicker : MonoBehaviour
 
         }
 
-        if (gameCompleteNumber == 4) {
+        if (gameCompleteNumber == 5) {
             GameCompleteManager.pickerGameComplete = true;
+            foreach(var pillar in pillars) {
+                pillar.GetComponent<MeshRenderer>().material = gameCompleteMaterial;
+            }
         }
 
 

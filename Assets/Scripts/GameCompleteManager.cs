@@ -5,9 +5,11 @@ using UnityEngine;
 public class GameCompleteManager : MonoBehaviour
 {
 
-    static public bool pickerGameComplete;
+    static public bool pickerGameComplete = false;
 
-    static public bool bongPillarComplete;
+    static public bool bongPillarComplete = false;
+
+    static public bool lightGameComplete = false;
 
     // Start is called before the first frame update
     

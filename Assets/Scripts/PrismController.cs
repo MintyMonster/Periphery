@@ -19,12 +19,23 @@ public class PrismController : MonoBehaviour
     [SerializeField]
     private GameObject[] lightBeams;
 
-    public Vector3 rotation;
+    private float prismOnePostion = 0;
 
-    private void Start() {
-        
-    }
+    private float prismTwoPostion = 0;
 
+    private float prismThreePostion = 0;
+
+    private float prismFourPostion = 0;
+
+    [SerializeField]
+    private AudioSource source;
+
+    [SerializeField]
+    private AudioClip turingSound;
+
+    [SerializeField]
+    private AudioClip inPostionSound;
+    
     // Update is called once per frame
     void Update()
     {
@@ -34,32 +45,70 @@ public class PrismController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)) {
             if (prismOneBeingLookedAt) {
 
-                prisms[0].transform.Rotate(0, 45f, 0); ; 
+                if(prismOnePostion != 7) {
+                    prisms[0].transform.Rotate(0, 45f, 0);
+
+                    ++prismOnePostion;
+                    source.PlayOneShot(turingSound);
+                }
 
             }
             if (prismTwoBeingLookedAt) {
 
-                prisms[1].transform.Rotate(0, 0, 90f);
+                if(prismTwoPostion != 5) {
+                    prisms[1].transform.Rotate(0, 45f, 0);
+                    ++prismTwoPostion;
+                    source.PlayOneShot(turingSound);
+                }
+               
 
             }
             if (prismThreeBeingLookedAt) {
 
-                prisms[2].transform.Rotate(0, 0, 90f);
+                if(prismThreePostion != 2) {
+                    prisms[2].transform.Rotate(0, 45f, 0);
+                    ++prismThreePostion;
+                    source.PlayOneShot(turingSound);
+                }
 
             }
             if (prismFourBeingLookedAt) {
 
-                prisms[3].transform.Rotate(0, 0, 90f);
+                if(prismFourPostion != 6) {
+                    prisms[3].transform.Rotate(0, 45, 0);
+                    ++prismFourPostion;
+                    source.PlayOneShot(turingSound);
+                }
+                
 
             }
         }
         //
-        if (prisms[0].transform.rotation.eulerAngles.y == 90f) {
-            lightBeams[0].SetActive(true);
-            Debug.Log("FuckYou");
+        if (prismOnePostion == 7) {
+            lightBeams[1].SetActive(true);
+            
         }
         else {
-            lightBeams[0].SetActive(false);
+            lightBeams[1].SetActive(false);
+        }
+        //
+        if(prismTwoPostion == 5 & prismOnePostion == 7) {
+            lightBeams[2].SetActive(true);
+        }
+        else {
+            lightBeams[2].SetActive(false);
+        }
+        //
+        if(prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 7) {
+            lightBeams[3].SetActive(true);
+        }
+        else {
+            lightBeams[3].SetActive(false);
+        }
+        //
+        if(prismFourPostion == 6 & prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 7) {
+            GameCompleteManager.lightGameComplete = true;
+            source.PlayOneShot(inPostionSound);
         }
 
     }
