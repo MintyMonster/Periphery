@@ -38,14 +38,18 @@ public class PlayerLook : MonoBehaviour
     /// </summary>
     private void HandleMouseLook()
     {
-        // Rotate at speed
-        rotationX -= Input.GetAxis("Mouse Y") * lookSpeedY;
-        // Clamp limits (up/down)
-        rotationX = Mathf.Clamp(rotationX, -upperLookLimit, lowerLookLimit);
-        // Rotate camera
-        playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
-        // Rotate transform
-        transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeedX, 0);
+        if (!journal.isPaused)
+        {
+            // Rotate at speed
+            rotationX -= Input.GetAxis("Mouse Y") * lookSpeedY;
+            // Clamp limits (up/down)
+            rotationX = Mathf.Clamp(rotationX, -upperLookLimit, lowerLookLimit);
+            // Rotate camera
+            playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
+            // Rotate transform
+            transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeedX, 0);
+        }
+
     }
 
     /// <summary>

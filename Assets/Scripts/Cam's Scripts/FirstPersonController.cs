@@ -99,6 +99,10 @@ public class FirstPersonController : MonoBehaviour
     private float torchOffTime = 0.0f;
     private float torchOffPeriod = 1f;
 
+    [SerializeField] private GameObject health1;
+    [SerializeField] private GameObject health2;
+    [SerializeField] private GameObject health3;
+
     // Sliding params
     private Vector3 hitPointNormal;
 
@@ -165,6 +169,17 @@ public class FirstPersonController : MonoBehaviour
 
         TorchBattery();
         CheckForEnemies();
+
+        if (currentLives == 1)
+        {
+            health1.SetActive(false);
+        }
+
+        if (currentLives == 0)
+        {
+            health1.SetActive(false);
+            health2.SetActive(false);
+        }
     }
 
     /// <summary>
@@ -241,7 +256,7 @@ public class FirstPersonController : MonoBehaviour
             {
                 torchOnTime = 0f;
                 if(torchBatteryPercent > 0.25f)
-                    torchBatteryPercent -= .25f;
+                    torchBatteryPercent -= 0.5f;
             }
         }
 
@@ -252,7 +267,7 @@ public class FirstPersonController : MonoBehaviour
             {
                 torchOffTime = 0f;
                 if(torchBatteryPercent < 100)
-                    torchBatteryPercent += 0.5f;
+                    torchBatteryPercent += 1f;
             }
         }
     }
@@ -332,7 +347,7 @@ public class FirstPersonController : MonoBehaviour
 
         enemies.ToList().ForEach(x =>
         {
-            if ((Vector3.Distance(x.transform.position, gameObject.transform.position) < 2.5f) && (x.GetComponent<SeenMeter>().Seen))
+            if ((Vector3.Distance(x.transform.position, gameObject.transform.position) < 1.5f) && (x.GetComponent<SeenMeter>().Seen))
             {
                 if (currentLives > 0)
                     RemoveLife();
