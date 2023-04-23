@@ -37,6 +37,7 @@ public class MenuController : MonoBehaviour
     }
 
     private void PlayLevel() {
+        FirstPersonController.firstBoot = true;
         SceneManager.LoadScene("Design_testing");
     }
 

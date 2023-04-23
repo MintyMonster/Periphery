@@ -35,6 +35,9 @@ public class PrismController : MonoBehaviour
 
     [SerializeField]
     private AudioClip inPostionSound;
+
+    [SerializeField]
+    private Material gameCompleteMaterial;
     
     // Update is called once per frame
     void Update()
@@ -86,6 +89,7 @@ public class PrismController : MonoBehaviour
         //
         if (prismOnePostion == 7) {
             lightBeams[1].SetActive(true);
+            prisms[1].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
             
         }
         else {
@@ -94,6 +98,7 @@ public class PrismController : MonoBehaviour
         //
         if(prismTwoPostion == 5 & prismOnePostion == 7) {
             lightBeams[2].SetActive(true);
+            prisms[2].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
         }
         else {
             lightBeams[2].SetActive(false);
@@ -101,6 +106,7 @@ public class PrismController : MonoBehaviour
         //
         if(prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 7) {
             lightBeams[3].SetActive(true);
+            prisms[3].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
         }
         else {
             lightBeams[3].SetActive(false);

@@ -22,6 +22,9 @@ public class Target : MonoBehaviour
 
     private bool hasPlayed = false;
 
+    [SerializeField]
+    private Material gameCompleteMaterial;
+
     private void Update() {
         
         if(isLookedAt) {
@@ -51,6 +54,9 @@ public class Target : MonoBehaviour
                     x.GetComponent<EnemyAI>().HandleRandomRoam();
                     x.GetComponent<SeenMeter>().SeenGauge = 0;
                 });
+
+                gameObject.GetComponent<MeshRenderer>().material = gameCompleteMaterial;
+
             }
         }
     }

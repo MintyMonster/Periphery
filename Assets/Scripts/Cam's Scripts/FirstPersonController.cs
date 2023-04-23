@@ -88,8 +88,8 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private Canvas crossHair;
     [SerializeField] private Canvas deathScreen;
     private static int currentLives = 0;
-    private static bool firstBoot = true;
-    private static int maxLives = 2;
+    public static bool firstBoot = true;
+    private static int maxLives = 3;
 
     // Torch params
     public float torchBatteryPercent { get; private set; } = 100f;
@@ -151,6 +151,7 @@ public class FirstPersonController : MonoBehaviour
             currentLives = maxLives;
             firstBoot = false;
         }
+        
     }
 
     // Called every frame
@@ -170,16 +171,30 @@ public class FirstPersonController : MonoBehaviour
         TorchBattery();
         CheckForEnemies();
 
-        if (currentLives == 1)
+
+        if(currentLives == 3) 
+        {
+            health1.SetActive(true);
+            health2.SetActive(true);
+            health3.SetActive(true);
+        }
+        if (currentLives == 2)
         {
             health1.SetActive(false);
         }
 
-        if (currentLives == 0)
+        if (currentLives == 1)
         {
             health1.SetActive(false);
             health2.SetActive(false);
         }
+        if(currentLives == 0)
+        {
+            health1.SetActive(false);
+            health2.SetActive(false);
+            health3.SetActive(false);
+        }
+        
     }
 
     /// <summary>
@@ -360,11 +375,13 @@ public class FirstPersonController : MonoBehaviour
     /// <summary>
     /// Resets the player's lives, and resets the scene
     /// </summary>
-    public void ResetPlayer()
+    static void ResetPlayer()
     {
         currentLives = maxLives;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    
 
     /// <summary>
     /// Player death logic
