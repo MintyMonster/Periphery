@@ -11,14 +11,28 @@ public class GameCompleteManager : MonoBehaviour
 
     static public bool lightGameComplete = false;
 
-    // Start is called before the first frame update
-    
-    // Update is called once per frame
+    [SerializeField]
+    GameObject door1;
+
+    [SerializeField]
+    GameObject door2;
+
     void Update()
     {
         
         if(pickerGameComplete & bongPillarComplete & lightGameComplete) {
             Debug.Log("Yummers");
+
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            foreach(var enemy in enemies) {
+
+                Destroy(enemy);
+
+                door1.SetActive(false);
+
+                door2.SetActive(false);
+            }
         }
 
 

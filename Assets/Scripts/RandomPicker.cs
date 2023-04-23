@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class RandomPicker : MonoBehaviour
@@ -124,6 +125,16 @@ public class RandomPicker : MonoBehaviour
                 source.PlayOneShot(clip);
                 hasSoundPlayed = true;
             }
+
+            // AI reset
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            enemies.ToList().ForEach(x =>
+            {
+                x.GetComponent<SeenMeter>().Seen = false;
+                x.GetComponent<EnemyAI>().HandleRandomRoam();
+                x.GetComponent<SeenMeter>().SeenGauge = 0;
+            });
 
             gameActive = false;
         }

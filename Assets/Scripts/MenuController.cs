@@ -25,8 +25,15 @@ public class MenuController : MonoBehaviour
     [SerializeField]
     private GameObject ControlsPannel;
 
+    private void Awake() {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
 
     private void Start() {
+
+        
 
         play.onClick.AddListener(PlayLevel);
         exit.onClick.AddListener(ExitGame);

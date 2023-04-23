@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class PrismController : MonoBehaviour
@@ -115,6 +116,16 @@ public class PrismController : MonoBehaviour
         if(prismFourPostion == 6 & prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 7) {
             GameCompleteManager.lightGameComplete = true;
             source.PlayOneShot(inPostionSound);
+
+            // AI reset
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+            enemies.ToList().ForEach(x =>
+            {
+                x.GetComponent<SeenMeter>().Seen = false;
+                x.GetComponent<EnemyAI>().HandleRandomRoam();
+                x.GetComponent<SeenMeter>().SeenGauge = 0;
+            });
         }
 
     }
