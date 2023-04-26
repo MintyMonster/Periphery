@@ -40,7 +40,8 @@ public class RandomPicker : MonoBehaviour
     public int gameCompleteNumber = 0;
 
     private bool hasSoundPlayed = false;
-    
+
+    private bool gameStarted = false;
 
     [SerializeField]
     private Material  gameCompleteMaterial;
@@ -58,7 +59,11 @@ public class RandomPicker : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        StartGame();
+        if (!gameStarted)
+        {
+            StartGame();
+        }
+
     }
 
     // Update is called once per frame
@@ -154,7 +159,8 @@ public class RandomPicker : MonoBehaviour
 
         stayLitCounter = stayLit;
         shouldBeLit = true;
-        
+        gameStarted = true;
+
     }
 
     public void pillarLookedAt(int whichPillar) {
