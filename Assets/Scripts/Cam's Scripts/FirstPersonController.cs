@@ -53,7 +53,8 @@ public class FirstPersonController : MonoBehaviour
     [SerializeField] private KeyCode sprintKey = KeyCode.LeftShift;
     [SerializeField] private KeyCode jumpKey = KeyCode.Space;
     [SerializeField] private KeyCode crouchKey = KeyCode.LeftControl;
-    [SerializeField] private KeyCode torchKey = KeyCode.T;
+
+    [SerializeField] private KeyCode torchKey = KeyCode.Mouse1; // Right mouse button AKA 'B' on Wii controller
 
     [Header("Movement parameters")]
     [SerializeField] private float walkSpeed = 4.0f;

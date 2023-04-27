@@ -23,7 +23,7 @@ public class PickerLookContoller : MonoBehaviour
     }
 
     private void OnMouseOver() {
-        if (Input.GetKeyDown(KeyCode.E)) {
+        if (Input.GetKeyDown(KeyCode.Mouse0)) { // Left mouse button AKA 'A' on Wii controller
             theRP.pillarLookedAt(thisPillarNumber);
         }
         
