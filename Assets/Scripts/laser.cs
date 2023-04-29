@@ -7,12 +7,8 @@ public class laser : MonoBehaviour
 
     private LineRenderer lineRenderer;
 
-
     [SerializeField]
     private Transform laserPostion;
-
-    // Start is called before the first frame update
-
 
     void Start()
     {

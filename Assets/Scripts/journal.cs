@@ -10,6 +10,9 @@ public class journal : MonoBehaviour
 
     public bool isEnabled;
     public static bool isPaused;
+
+    [HideInInspector]
+    public static bool canUse = false;
     private void Start()
     {
         isEnabled = false;
@@ -17,51 +20,30 @@ public class journal : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            if (isEnabled)
-            {
-                journal_panel.SetActive(false);
 
-                isEnabled = false;
+        if (canUse) {
+            if (Input.GetKeyDown(KeyCode.Return)) {
+                if (isEnabled) {
+                    journal_panel.SetActive(false);
 
-                Time.timeScale = 1f;
+                    isEnabled = false;
 
-                isPaused = false;
-            }
+                    Time.timeScale = 1f;
 
-            else
-            {
-                journal_panel.SetActive(true);
+                    isPaused = false;
+                }
 
-                isEnabled = true;
+                else {
+                    journal_panel.SetActive(true);
 
-                Time.timeScale = 0f;
+                    isEnabled = true;
 
-                isPaused = true;
+                    Time.timeScale = 0f;
+
+                    isPaused = true;
+                }
             }
         }
 
-        //if (isEnabled)
-        //{
-
-        //    if (Input.GetKeyDown(KeyCode.Q))
-        //    {
-        //        journal_panel.SetActive(false);
-
-        //        isEnabled = false;
-        //    }
-
-        //}
-
-        //if (!isEnabled)
-        //{
-        //    if (Input.GetKeyDown(KeyCode.Q))
-        //    {
-        //        journal_panel.SetActive(true);
-
-        //        isEnabled = true;
-        //    }
-        //}
     }
 }

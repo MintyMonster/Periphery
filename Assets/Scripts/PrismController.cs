@@ -48,7 +48,7 @@ public class PrismController : MonoBehaviour
 
         
         //
-        if(Input.GetKeyDown(KeyCode.E)) {
+        if(Input.GetKeyDown(KeyCode.Mouse0)) {
             if (prismOneBeingLookedAt) {
 
                 if(prismOnePostion != 4) {

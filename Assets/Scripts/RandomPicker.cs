@@ -52,12 +52,6 @@ public class RandomPicker : MonoBehaviour
     [SerializeField]
     private AudioClip clip;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other) {
         if (!gameStarted)
         {
@@ -100,9 +94,6 @@ public class RandomPicker : MonoBehaviour
                 else {
                     if (waitBetweenCounter < 0) {
 
-                        //pillarSelect = Random.Range(0, pillars.Length);
-
-                        //activeSequence.Add(pillarSelect);
 
                         pillars[activeSequence[positionInSequence]].GetComponent<Light>().enabled = true;
 
@@ -169,15 +160,11 @@ public class RandomPicker : MonoBehaviour
 
         if (gameActive) {
 
-
-
             if (activeSequence[inputInSequence] == whichPillar) {
 
                 Debug.Log("Correct");
 
                 inputInSequence++;
-
-                
 
                 if(inputInSequence >= activeSequence.Count) {
 
@@ -199,8 +186,8 @@ public class RandomPicker : MonoBehaviour
                 }
             }
             else {
-                Debug.Log("Wrong");
 
+                Debug.Log("Wrong");
 
             }
         }

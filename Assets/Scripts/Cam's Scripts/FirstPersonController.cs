@@ -404,7 +404,7 @@ public class FirstPersonController : MonoBehaviour
     private void RemoveLife()
     {
         currentLives--;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("death");
     }
 
     /// <summary>
