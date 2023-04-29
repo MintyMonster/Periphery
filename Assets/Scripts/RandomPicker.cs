@@ -128,18 +128,20 @@ public class RandomPicker : MonoBehaviour
 
             if (!hasSoundPlayed) {
                 source.PlayOneShot(clip);
+               
+                // AI reset
+                GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+                enemies.ToList().ForEach(x =>
+                {
+                    x.GetComponent<SeenMeter>().Seen = false;
+                    x.GetComponent<EnemyAI>().HandleRandomRoam();
+                    x.GetComponent<SeenMeter>().SeenGauge = 0;
+                });
                 hasSoundPlayed = true;
             }
 
-            // AI reset
-            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-
-            enemies.ToList().ForEach(x =>
-            {
-                x.GetComponent<SeenMeter>().Seen = false;
-                x.GetComponent<EnemyAI>().HandleRandomRoam();
-                x.GetComponent<SeenMeter>().SeenGauge = 0;
-            });
+            
 
             gameActive = false;
         }

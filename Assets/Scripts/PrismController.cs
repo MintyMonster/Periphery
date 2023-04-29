@@ -28,6 +28,8 @@ public class PrismController : MonoBehaviour
 
     private float prismFourPostion = 0;
 
+    private bool hasDone = false;
+
     [SerializeField]
     private AudioSource source;
 
@@ -49,8 +51,8 @@ public class PrismController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.E)) {
             if (prismOneBeingLookedAt) {
 
-                if(prismOnePostion != 7) {
-                    prisms[0].transform.Rotate(0, 45f, 0);
+                if(prismOnePostion != 4) {
+                    prisms[0].transform.Rotate(0, 20f, 0);
 
                     ++prismOnePostion;
                     source.PlayOneShot(turingSound);
@@ -60,7 +62,7 @@ public class PrismController : MonoBehaviour
             if (prismTwoBeingLookedAt) {
 
                 if(prismTwoPostion != 5) {
-                    prisms[1].transform.Rotate(0, 45f, 0);
+                    prisms[1].transform.Rotate(0, 25f, 0);
                     ++prismTwoPostion;
                     source.PlayOneShot(turingSound);
                 }
@@ -78,8 +80,8 @@ public class PrismController : MonoBehaviour
             }
             if (prismFourBeingLookedAt) {
 
-                if(prismFourPostion != 6) {
-                    prisms[3].transform.Rotate(0, 45, 0);
+                if(prismFourPostion != 5) {
+                    prisms[3].transform.Rotate(0, 30f, 0);
                     ++prismFourPostion;
                     source.PlayOneShot(turingSound);
                 }
@@ -88,7 +90,7 @@ public class PrismController : MonoBehaviour
             }
         }
         //
-        if (prismOnePostion == 7) {
+        if (prismOnePostion == 4) {
             lightBeams[1].SetActive(true);
             prisms[1].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
             
@@ -97,7 +99,7 @@ public class PrismController : MonoBehaviour
             lightBeams[1].SetActive(false);
         }
         //
-        if(prismTwoPostion == 5 & prismOnePostion == 7) {
+        if(prismTwoPostion == 5 & prismOnePostion == 4) {
             lightBeams[2].SetActive(true);
             prisms[2].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
         }
@@ -105,7 +107,7 @@ public class PrismController : MonoBehaviour
             lightBeams[2].SetActive(false);
         }
         //
-        if(prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 7) {
+        if(prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 4) {
             lightBeams[3].SetActive(true);
             prisms[3].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
         }
@@ -113,19 +115,25 @@ public class PrismController : MonoBehaviour
             lightBeams[3].SetActive(false);
         }
         //
-        if(prismFourPostion == 6 & prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 7) {
+        if(prismFourPostion == 5 & prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 4) {
             GameCompleteManager.lightGameComplete = true;
-            source.PlayOneShot(inPostionSound);
+
+            prisms[4].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
 
             // AI reset
-            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            if (!hasDone) {
+                source.PlayOneShot(inPostionSound);
+                GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-            enemies.ToList().ForEach(x =>
-            {
-                x.GetComponent<SeenMeter>().Seen = false;
-                x.GetComponent<EnemyAI>().HandleRandomRoam();
-                x.GetComponent<SeenMeter>().SeenGauge = 0;
-            });
+                enemies.ToList().ForEach(x =>
+                {
+                    x.GetComponent<SeenMeter>().Seen = false;
+                    x.GetComponent<EnemyAI>().HandleRandomRoam();
+                    x.GetComponent<SeenMeter>().SeenGauge = 0;
+                });
+                hasDone = true;
+            }
+            
         }
 
     }

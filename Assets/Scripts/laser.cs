@@ -7,18 +7,24 @@ public class laser : MonoBehaviour
 
     private LineRenderer lineRenderer;
 
-    private GameObject light;
+
+    [SerializeField]
+    private Transform laserPostion;
 
     // Start is called before the first frame update
+
+
     void Start()
     {
         lineRenderer = GetComponent<LineRenderer>();
+
+        lineRenderer.SetPosition(0, laserPostion.position);
     }
 
     // Update is called once per frame
     void Update()
     {
-        lineRenderer.SetPosition(0, transform.position);
+       
         RaycastHit hit;
         if (Physics.Raycast(transform.position, transform.forward, out hit)) 
         {
