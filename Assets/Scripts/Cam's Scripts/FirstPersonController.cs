@@ -171,7 +171,6 @@ public class FirstPersonController : MonoBehaviour
 
         TorchBattery();
         CheckForEnemies();
-        CheckForGirlEnemy();
 
 
         if(currentLives == 3) 
@@ -370,32 +369,6 @@ public class FirstPersonController : MonoBehaviour
                     RemoveLife();
                 else
                     PlayerDeath();
-            }
-        });
-    }
-    
-
-    /// <summary>
-    /// Checks the distance between female enemy and player, and acts accordingly
-    /// </summary>
-    private void CheckForGirlEnemy()
-    {
-        GameObject.FindGameObjectsWithTag("GirlEnemy").ToList().ForEach(x =>
-        {
-            if ((Vector3.Distance(x.transform.position, gameObject.transform.position) < 1.5f) && (x.GetComponent<GirlEnemySeenMeter>().Seen))
-            {
-                // Reset Seen script
-                if (TorchOn)
-                {
-                    TorchOn = !TorchOn;
-                    torch.GetComponent<Light>().range = TorchOn ? TorchBrightness() : 0;
-                    torchBatteryPercent -= 20;
-                }
-                else
-                    torchBatteryPercent = torchBatteryPercent <= 20 ? torchBatteryPercent = 0 : torchBatteryPercent -= 20;
-
-                x.GetComponent<GirlEnemySeenMeter>().Seen = false;
-                x.GetComponent<GirlEnemySeenMeter>().SeenGauge = 0f;
             }
         });
     }
