@@ -38,6 +38,8 @@ public class SeenMeter : MonoBehaviour
         ai = GetComponent<EnemyAI>();
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+
+        hasPlayed = false;
     }
 
     // Update is called once per frame

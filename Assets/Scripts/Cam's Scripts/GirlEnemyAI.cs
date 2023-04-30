@@ -7,6 +7,8 @@ public class GirlEnemyAI : MonoBehaviour
 {
     public bool CanMove { get; set; } = true;
 
+    private bool hasPlayed;
+
     public float Speed { get; set; }
     private float walkRadius = 40.0f;
     private NavMeshAgent agent;
@@ -17,6 +19,12 @@ public class GirlEnemyAI : MonoBehaviour
 
     [SerializeField]
     private AudioSource faststepSource;
+
+    [SerializeField]
+    private AudioSource deathsoundSource;
+
+    [SerializeField]
+    private AudioClip deathSound;
 
     // Start is called before the first frame update
     void Start()
@@ -70,6 +78,12 @@ public class GirlEnemyAI : MonoBehaviour
             animator.SetBool("dead", true);
 
             animator.SetBool("isNoticed", true);
+
+            if (!hasPlayed)
+            {
+                deathsoundSource.PlayOneShot(deathSound);
+                hasPlayed = true;
+            }
 
             gameObject.GetComponent<GirlEnemyAI>().enabled = false;
 

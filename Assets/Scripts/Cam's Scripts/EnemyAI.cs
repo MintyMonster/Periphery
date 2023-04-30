@@ -21,12 +21,19 @@ public class EnemyAI : MonoBehaviour
     // Added by James for animation
     private Animator animator;
 
+    private bool hasPlayed;
+
     [SerializeField]
     private AudioSource slowstepSource;
 
     [SerializeField]
     private AudioSource faststepSource;
 
+    [SerializeField]
+    private AudioSource deathsoundSource;
+
+    [SerializeField]
+    private AudioClip deathSound;
 
     // Start is called before the first frame updated
     void Start()
@@ -83,6 +90,12 @@ public class EnemyAI : MonoBehaviour
             animator.SetBool("dead", true);
 
             animator.SetBool("isNoticed", true);
+
+            if (!hasPlayed)
+            {
+                deathsoundSource.PlayOneShot(deathSound);
+                hasPlayed = true;
+            }
 
             gameObject.GetComponent<EnemyAI>().enabled = false;
 

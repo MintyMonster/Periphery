@@ -27,6 +27,8 @@ public class GirlEnemySeenMeter : MonoBehaviour
         ai = GetComponent<GirlEnemyAI>();
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+
+        hasPlayedGirl = false;
     }
 
     // Update is called once per frame

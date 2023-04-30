@@ -368,16 +368,20 @@ public class FirstPersonController : MonoBehaviour
         {
             if ((Vector3.Distance(x.transform.position, gameObject.transform.position) < 1.5f) && (x.GetComponent<SeenMeter>().Seen))
             {
-                if (currentLives > 0)
-                    if (canDie) {
+                if (currentLives >= 2)
+                {
+                    if (canDie)
+                    {
                         RemoveLife();
-                    } 
-                   
+                    }
+                }
                 else
-                        if(canDie){
+                {
+                    if (canDie)
+                    {
                         PlayerDeath();
                     }
-                    
+                }
             }
         });
     }

@@ -22,7 +22,10 @@ public class GameCompleteManager : MonoBehaviour
 
 
 
-
+    private void Start()
+    {
+        deathAnimationPlay = false;
+    }
     void Update()
     {
         
