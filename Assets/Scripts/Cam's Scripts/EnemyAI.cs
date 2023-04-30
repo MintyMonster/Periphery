@@ -21,7 +21,7 @@ public class EnemyAI : MonoBehaviour
     // Added by James for animation
     private Animator animator;
 
-    // Start is called before the first frame update
+    // Start is called before the first frame updated
     void Start()
     {
         // Added by James for animation
