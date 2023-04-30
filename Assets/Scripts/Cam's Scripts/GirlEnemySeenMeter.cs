@@ -13,6 +13,13 @@ public class GirlEnemySeenMeter : MonoBehaviour
     private GirlEnemyAI ai;
     private NavMeshAgent agent;
     private Animator animator;
+    public static bool hasPlayedGirl;
+
+    [SerializeField]
+    private AudioSource source;
+
+    [SerializeField]
+    private AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +36,21 @@ public class GirlEnemySeenMeter : MonoBehaviour
         if (Seen) agent.SetDestination(Player.position);
 
         // Animator stuff for james
+        if (SeenGauge >= 0.1f)
+        {
+            animator.SetBool("isNoticed", true);
+            if (!hasPlayedGirl)
+            {
+                source.PlayOneShot(clip);
+                hasPlayedGirl = true;
+            }
+
+        }
+
+        if (SeenGauge <= 0.2f)
+        {
+            animator.SetBool("isNoticed", false);
+        }
     }
 
     private void AddSpeed()

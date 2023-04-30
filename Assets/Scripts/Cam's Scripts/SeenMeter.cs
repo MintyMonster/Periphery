@@ -24,6 +24,13 @@ public class SeenMeter : MonoBehaviour
     private EnemyAI ai;
     private NavMeshAgent agent;
     private Animator animator;
+    public static bool hasPlayed;
+
+    [SerializeField]
+    private AudioSource source;
+
+    [SerializeField]
+    private AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -42,6 +49,11 @@ public class SeenMeter : MonoBehaviour
         if (SeenGauge >= 0.1f)
         {
             animator.SetBool("isNoticed", true);
+            if (!hasPlayed)
+            {
+                source.PlayOneShot(clip);
+                hasPlayed = true;
+            }
            
         }
 
@@ -49,6 +61,8 @@ public class SeenMeter : MonoBehaviour
         {
             animator.SetBool("isNoticed", false);
         }
+
+
         
     }
 

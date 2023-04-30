@@ -12,9 +12,16 @@ public class GirlEnemyAI : MonoBehaviour
     private NavMeshAgent agent;
     private Animator animator;
 
+    [SerializeField]
+    private AudioSource slowstepSource;
+
+    [SerializeField]
+    private AudioSource faststepSource;
+
     // Start is called before the first frame update
     void Start()
     {
+        animator.SetBool("dead", false);
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
 
@@ -26,13 +33,52 @@ public class GirlEnemyAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(CanMove)
+        if (CanMove)
         {
             agent.speed = Speed;
             HandleDestinationReached();
         }
 
         // Animator stuff here for James
+        if (Speed >= 0.51f)
+        {
+            animator.SetBool("speed", false);
+        }
+
+        if (Speed <= 0.52f)
+        {
+            animator.SetBool("speed", true);
+        }
+
+        if (Speed == 4f)
+        {
+            animator.SetBool("fast", true);
+            if (animator.GetBool("fast") == true)
+            {
+                faststepSource.enabled = true;
+                slowstepSource.enabled = false;
+            }
+            else
+            {
+                faststepSource.enabled = false;
+                slowstepSource.enabled = true;
+            }
+        }
+        if (GameCompleteManager.deathAnimationPlay)
+        {
+            animator.SetBool("dead", true);
+
+            animator.SetBool("isNoticed", true);
+
+            gameObject.GetComponent<GirlEnemyAI>().enabled = false;
+
+            gameObject.GetComponent<GirlEnemySeenMeter>().enabled = false;
+
+            gameObject.GetComponent<NavMeshAgent>().enabled = false;
+
+            faststepSource.enabled = false;
+            slowstepSource.enabled = false;
+        }
     }
 
     private Vector3 GetRandomPosition()

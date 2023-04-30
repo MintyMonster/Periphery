@@ -128,6 +128,8 @@ public class RandomPicker : MonoBehaviour
                     x.GetComponent<SeenMeter>().Seen = false;
                     x.GetComponent<EnemyAI>().HandleRandomRoam();
                     x.GetComponent<SeenMeter>().SeenGauge = 0;
+                    SeenMeter.hasPlayed = false;
+                    GirlEnemySeenMeter.hasPlayedGirl = false;
                 });
                 hasSoundPlayed = true;
             }

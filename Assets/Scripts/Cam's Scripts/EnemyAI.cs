@@ -21,9 +21,17 @@ public class EnemyAI : MonoBehaviour
     // Added by James for animation
     private Animator animator;
 
+    [SerializeField]
+    private AudioSource slowstepSource;
+
+    [SerializeField]
+    private AudioSource faststepSource;
+
+
     // Start is called before the first frame updated
     void Start()
     {
+        animator.SetBool("dead", false);
         // Added by James for animation
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
@@ -57,7 +65,34 @@ public class EnemyAI : MonoBehaviour
         if (Speed == 4f)
         {
             animator.SetBool("fast", true);
+            if (animator.GetBool("fast") == true)
+            {
+                faststepSource.enabled = true;
+                slowstepSource.enabled = false;
+            }
+            else
+            {
+                faststepSource.enabled = false;
+                slowstepSource.enabled = true;
+            }
         }
+
+        if (GameCompleteManager.deathAnimationPlay)
+        {
+            animator.SetBool("dead", true);
+
+            animator.SetBool("isNoticed", true);
+
+            gameObject.GetComponent<EnemyAI>().enabled = false;
+
+            gameObject.GetComponent<SeenMeter>().enabled = false;
+
+            gameObject.GetComponent<NavMeshAgent>().enabled = false;
+
+            faststepSource.enabled = false;
+            slowstepSource.enabled = false;
+        }
+
     }
 
     /// <summary>

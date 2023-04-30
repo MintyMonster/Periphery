@@ -11,6 +11,9 @@ public class GameCompleteManager : MonoBehaviour
 
     static public bool lightGameComplete = false;
 
+    static public bool deathAnimationPlay = false;
+
+
     [SerializeField]
     GameObject door1;
 
@@ -23,11 +26,12 @@ public class GameCompleteManager : MonoBehaviour
         if(pickerGameComplete & bongPillarComplete & lightGameComplete) {
             Debug.Log("Yummers");
 
+            deathAnimationPlay = true;
+
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
             foreach(var enemy in enemies) {
 
-                Destroy(enemy);
 
                 door1.SetActive(false);
 

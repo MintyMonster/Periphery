@@ -20,6 +20,9 @@ public class PrismController : MonoBehaviour
     [SerializeField]
     private GameObject[] lightBeams;
 
+    [SerializeField]
+    private GameObject logo;
+
     private float prismOnePostion = 0;
 
     private float prismTwoPostion = 0;
@@ -41,6 +44,9 @@ public class PrismController : MonoBehaviour
 
     [SerializeField]
     private Material gameCompleteMaterial;
+
+    [SerializeField]
+    private Material logoMaterial;
     
     // Update is called once per frame
     void Update()
@@ -120,6 +126,8 @@ public class PrismController : MonoBehaviour
 
             prisms[4].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
 
+            logo.GetComponent<SpriteRenderer>().material = logoMaterial;
+
             // AI reset
             if (!hasDone) {
                 source.PlayOneShot(inPostionSound);
@@ -130,6 +138,8 @@ public class PrismController : MonoBehaviour
                     x.GetComponent<SeenMeter>().Seen = false;
                     x.GetComponent<EnemyAI>().HandleRandomRoam();
                     x.GetComponent<SeenMeter>().SeenGauge = 0;
+                    SeenMeter.hasPlayed = false;
+                    GirlEnemySeenMeter.hasPlayedGirl = false;
                 });
                 hasDone = true;
             }
