@@ -31,10 +31,11 @@ public class EnemyAI : MonoBehaviour
     // Start is called before the first frame updated
     void Start()
     {
-        animator.SetBool("dead", false);
+        
         // Added by James for animation
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+        animator.SetBool("dead", false);
 
         // Set start params
         Speed = Random.Range(0.5f, 0.7f);
@@ -91,6 +92,7 @@ public class EnemyAI : MonoBehaviour
 
             faststepSource.enabled = false;
             slowstepSource.enabled = false;
+            FirstPersonController.canDie = false;
         }
 
     }

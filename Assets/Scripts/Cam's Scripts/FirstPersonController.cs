@@ -91,6 +91,7 @@ public class FirstPersonController : MonoBehaviour
     private static int currentLives = 0;
     public static bool firstBoot = true;
     private static int maxLives = 3;
+    public static bool canDie = true;
 
     // Torch params
     public float torchBatteryPercent { get; private set; } = 100f;
@@ -155,6 +156,7 @@ public class FirstPersonController : MonoBehaviour
         
     }
 
+    
     // Called every frame
     void Update()
     {
@@ -367,9 +369,15 @@ public class FirstPersonController : MonoBehaviour
             if ((Vector3.Distance(x.transform.position, gameObject.transform.position) < 1.5f) && (x.GetComponent<SeenMeter>().Seen))
             {
                 if (currentLives > 0)
-                    RemoveLife();
+                    if (canDie) {
+                        RemoveLife();
+                    } 
+                   
                 else
-                    PlayerDeath();
+                        if(canDie){
+                        PlayerDeath();
+                    }
+                    
             }
         });
     }

@@ -21,9 +21,10 @@ public class GirlEnemyAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator.SetBool("dead", false);
+       
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+        animator.SetBool("dead", false);
 
         // Set start params
         Speed = Random.Range(2f, 3f);

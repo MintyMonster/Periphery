@@ -20,11 +20,14 @@ public class GameCompleteManager : MonoBehaviour
     [SerializeField]
     GameObject door2;
 
+
+
+
     void Update()
     {
         
         if(pickerGameComplete & bongPillarComplete & lightGameComplete) {
-            Debug.Log("Yummers");
+            
 
             deathAnimationPlay = true;
 

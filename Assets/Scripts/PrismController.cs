@@ -87,7 +87,7 @@ public class PrismController : MonoBehaviour
             if (prismFourBeingLookedAt) {
 
                 if(prismFourPostion != 5) {
-                    prisms[3].transform.Rotate(0, 30f, 0);
+                    prisms[3].transform.Rotate(0, 21f, 0);
                     ++prismFourPostion;
                     source.PlayOneShot(turingSound);
                 }
@@ -124,7 +124,6 @@ public class PrismController : MonoBehaviour
         if(prismFourPostion == 5 & prismThreePostion == 2 & prismTwoPostion == 5 & prismOnePostion == 4) {
             GameCompleteManager.lightGameComplete = true;
 
-            prisms[4].GetComponent<MeshRenderer>().material = gameCompleteMaterial;
 
             logo.GetComponent<SpriteRenderer>().material = logoMaterial;
 
