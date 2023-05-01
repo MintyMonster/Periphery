@@ -153,7 +153,7 @@ public class FirstPersonController : MonoBehaviour
             currentLives = maxLives;
             firstBoot = false;
         }
-        
+        canDie = true;
     }
 
     
