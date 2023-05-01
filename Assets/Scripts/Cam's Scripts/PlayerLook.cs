@@ -59,6 +59,7 @@ public class PlayerLook : MonoBehaviour
     {
         Debug.DrawRay(playerCamera.transform.position, playerCamera.transform.forward * 100f, Color.red);
         if(Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out RaycastHit hit, 100f))
+        {
             if (hit.transform.tag == "Enemy")
             {
                 SeenMeter meter = hit.transform.GetComponent<SeenMeter>();
@@ -66,7 +67,7 @@ public class PlayerLook : MonoBehaviour
 
                 timer += Time.deltaTime;
 
-                if(timer > period)
+                if (timer > period)
                 {
                     timer -= period;
 
@@ -74,6 +75,22 @@ public class PlayerLook : MonoBehaviour
                     meter.AddSeen();
                     meter.player = this.transform;
                 }
+            }else if(hit.transform.tag == "GirlEnemy")
+            {
+                GirlEnemySeenMeter meter = hit.transform.GetComponent<GirlEnemySeenMeter>();
+                GirlEnemyAI ai = hit.transform.GetComponent<GirlEnemyAI>();
+
+                timer += Time.deltaTime;
+                if(timer > period)
+                {
+                    timer -= period;
+
+                    meter.Seen = true;
+                    meter.AddSeen();
+                    meter.Player = this.transform;
+                }
             }
+        }
+            
     }
 }
