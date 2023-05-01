@@ -13,6 +13,8 @@ public class GameCompleteManager : MonoBehaviour
 
     static public bool deathAnimationPlay = false;
 
+    static public bool girldeathAnimationPlay = false;
+
 
     [SerializeField]
     GameObject door1;
@@ -25,6 +27,7 @@ public class GameCompleteManager : MonoBehaviour
     private void Start()
     {
         deathAnimationPlay = false;
+        girldeathAnimationPlay = false;
     }
     void Update()
     {
@@ -33,6 +36,8 @@ public class GameCompleteManager : MonoBehaviour
             
 
             deathAnimationPlay = true;
+
+            girldeathAnimationPlay = true;
 
             GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 

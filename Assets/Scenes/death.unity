@@ -568,8 +568,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe34db1093ea82143ad008676fea36d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1.4
-  timeStore: 1.4
+  time: 2
+  timeStore: 2
 --- !u!82 &781122043
 AudioSource:
   m_ObjectHideFlags: 0
@@ -580,10 +580,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3f3f5664ca57a6f46a89d017ca0e9821, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b31336f904436df40b711a824423d177, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 2.45
+  m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -626,7 +626,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.8
       inSlope: 0
       outSlope: 0
       tangentMode: 0

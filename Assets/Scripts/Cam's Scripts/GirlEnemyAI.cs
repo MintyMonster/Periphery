@@ -73,7 +73,7 @@ public class GirlEnemyAI : MonoBehaviour
                 slowstepSource.enabled = true;
             }
         }
-        if (GameCompleteManager.deathAnimationPlay)
+        if (GameCompleteManager.girldeathAnimationPlay)
         {
             animator.SetBool("dead", true);
 
