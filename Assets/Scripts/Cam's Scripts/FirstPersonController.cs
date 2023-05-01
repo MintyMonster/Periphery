@@ -408,6 +408,7 @@ public class FirstPersonController : MonoBehaviour
 
                 x.GetComponent<GirlEnemySeenMeter>().Seen = false;
                 x.GetComponent<GirlEnemySeenMeter>().SeenGauge = 0f;
+                x.GetComponent<GirlEnemyAI>().AggroCooldown();
             }
         });
     }

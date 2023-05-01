@@ -77,17 +77,20 @@ public class PlayerLook : MonoBehaviour
                 }
             }else if(hit.transform.tag == "GirlEnemy")
             {
-                GirlEnemySeenMeter meter = hit.transform.GetComponent<GirlEnemySeenMeter>();
-                GirlEnemyAI ai = hit.transform.GetComponent<GirlEnemyAI>();
-
-                timer += Time.deltaTime;
-                if(timer > period)
+                if (hit.transform.GetComponent<GirlEnemyAI>().CanAggro)
                 {
-                    timer -= period;
+                    GirlEnemySeenMeter meter = hit.transform.GetComponent<GirlEnemySeenMeter>();
+                    GirlEnemyAI ai = hit.transform.GetComponent<GirlEnemyAI>();
 
-                    meter.Seen = true;
-                    meter.AddSeen();
-                    meter.Player = this.transform;
+                    timer += Time.deltaTime;
+                    if (timer > period)
+                    {
+                        timer -= period;
+
+                        meter.Seen = true;
+                        meter.AddSeen();
+                        meter.Player = this.transform;
+                    }
                 }
             }
         }

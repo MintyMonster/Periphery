@@ -46,7 +46,6 @@ public class GirlEnemySeenMeter : MonoBehaviour
                 source.PlayOneShot(clip);
                 hasPlayedGirl = true;
             }
-
         }
 
         if (SeenGauge <= 0.2f)

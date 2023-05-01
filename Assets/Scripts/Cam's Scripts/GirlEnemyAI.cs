@@ -6,10 +6,12 @@ using UnityEngine.AI;
 public class GirlEnemyAI : MonoBehaviour
 {
     public bool CanMove { get; set; } = true;
+    public bool CanAggro { get; set; } = true;
 
     private bool hasPlayed;
 
     public float Speed { get; set; }
+    public int Seconds { get; set; } = 3;
     private float walkRadius = 40.0f;
     private NavMeshAgent agent;
     private Animator animator;
@@ -73,6 +75,8 @@ public class GirlEnemyAI : MonoBehaviour
                 slowstepSource.enabled = true;
             }
         }
+
+        // Killing girl handler
         if (GameCompleteManager.girldeathAnimationPlay)
         {
             animator.SetBool("dead", true);
@@ -96,6 +100,7 @@ public class GirlEnemyAI : MonoBehaviour
         }
     }
 
+    // Get a random position in the map for the enemy
     private Vector3 GetRandomPosition()
     {
         Vector3 randomDirection = Random.insideUnitSphere * walkRadius;
@@ -106,9 +111,10 @@ public class GirlEnemyAI : MonoBehaviour
         if (NavMesh.SamplePosition(randomDirection, out hit, walkRadius, 1))
             finalPos = hit.position;
 
-        return finalPos;
+        return finalPos; // Return a random position in the house
     }
 
+    // When it reaches a destination, pick a new one
     private void HandleDestinationReached()
     {
         if (!agent.pathPending)
@@ -117,5 +123,21 @@ public class GirlEnemyAI : MonoBehaviour
                     HandleRandomRoam();
     }
 
+    // Aggro cooldown for when it de-aggros from the player
+    public void AggroCooldown()
+    {
+        CanAggro = false;
+        HandleRandomRoam();
+        StartCoroutine(AggroEnumurator(Seconds));
+    }
+
+    // Wait for time
+    private IEnumerator AggroEnumurator(int secs)
+    {
+        yield return new WaitForSeconds(secs);
+        CanAggro = true;
+    }
+
+    // Set new destination
     public void HandleRandomRoam() => agent.SetDestination(GetRandomPosition());
 }
