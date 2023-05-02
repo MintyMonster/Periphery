@@ -2,26 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickerLookContoller : MonoBehaviour
+public class PickerLookContoller : MonoBehaviour 
 {
+    //Made by James Sherlock
 
+    [HideInInspector]
     public int thisPillarNumber;
 
     private RandomPicker theRP;
 
-
-    // Start is called before the first frame update
+    //Finds the RandomPicker
     void Start()
     {
         theRP = FindObjectOfType<RandomPicker>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    //Sends the number of which pillar was clicked on to the randompicker script
     private void OnMouseOver() {
         if (Input.GetKeyDown(KeyCode.Mouse0)) { // Left mouse button AKA 'A' on Wii controller
             theRP.pillarLookedAt(thisPillarNumber);

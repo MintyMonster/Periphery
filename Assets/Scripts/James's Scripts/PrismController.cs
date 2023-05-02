@@ -10,41 +10,34 @@ public class PrismController : MonoBehaviour
 
     [HideInInspector]
     static public bool prismOneBeingLookedAt = false;
-
+    [HideInInspector]
     static public bool prismTwoBeingLookedAt = false;
-
+    [HideInInspector]
     static public bool prismThreeBeingLookedAt = false;
-
+    [HideInInspector]
     static public bool prismFourBeingLookedAt = false;
 
     [SerializeField]
     private GameObject[] lightBeams;
-
     [SerializeField]
     private GameObject logo;
 
     private float prismOnePostion = 0;
-
     private float prismTwoPostion = 0;
-
     private float prismThreePostion = 0;
-
     private float prismFourPostion = 0;
 
     private bool hasDone = false;
 
     [SerializeField]
     private AudioSource source;
-
     [SerializeField]
     private AudioClip turingSound;
-
     [SerializeField]
     private AudioClip inPostionSound;
 
     [SerializeField]
     private Material gameCompleteMaterial;
-
     [SerializeField]
     private Material logoMaterial;
     

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Looking : MonoBehaviour
 {
+    //Made by James Sherlock
 
     [SerializeField]
     private float range = 100f;
@@ -11,7 +12,7 @@ public class Looking : MonoBehaviour
     [SerializeField]
     private Camera eyeCam;
 
-    // Update is called once per frame
+    //This Handles all the Raycasting for two of the Puzzles 
     void Update()
     {
         RaycastHit hit;
