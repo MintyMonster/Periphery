@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class DeathSceneLoad : MonoBehaviour
 {
+    //Made by James Sherlock
+
 
     public float time = 2f;
 
