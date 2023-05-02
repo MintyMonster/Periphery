@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PrismController : MonoBehaviour
 {
+    //Made by James Sherlock
+
     [SerializeField]
     private GameObject[] prisms;
 
@@ -41,12 +43,11 @@ public class PrismController : MonoBehaviour
     [SerializeField]
     private Material logoMaterial;
     
-    // Update is called once per frame
     void Update()
     {
-
         
-        //
+        //checks if the prisms are being looked at and handles the rotations of the prisms
+        //does this for each of the prisms
         if(Input.GetKeyDown(KeyCode.Mouse0)) {
             if (prismOneBeingLookedAt) {
 
@@ -88,7 +89,8 @@ public class PrismController : MonoBehaviour
 
             }
         }
-        //
+        //These handle if the prisms are in the right postion and turns the lightbeams on if they are
+        //also changes the material to relect if the prism is complete
         if (prismOnePostion == 4) {
             lightBeams[1].SetActive(true);
             prisms[1].GetComponent<MeshRenderer>().material = gameCompleteMaterial;

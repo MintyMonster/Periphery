@@ -5,19 +5,19 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
+    //Made by James Sherlock
 
     [SerializeField]
     private AudioSource source;
-
     [SerializeField]
     private AudioClip clip;
 
     [SerializeField] ParticleSystem pillarcomplete = null;
 
     public float time = 5f;
-
     public float timeStore = 5f;
 
+    [HideInInspector]
     static public bool isLookedAt = false;
 
     private bool hasPlayed = false;
@@ -27,6 +27,7 @@ public class Target : MonoBehaviour
 
     private void Update() {
         
+        //Handles the time if you are looking at the pillar
         if(isLookedAt) {
            
             time -= Time.deltaTime;
@@ -36,6 +37,8 @@ public class Target : MonoBehaviour
             time = timeStore;
         }
 
+        //When the timer gets to zero plays the sound and the particles
+        //also resets the AI
         if (time <= 0f) {
 
             if(!hasPlayed) {

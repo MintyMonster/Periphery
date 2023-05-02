@@ -9,15 +9,14 @@ public class DeathSceneLoad : MonoBehaviour
 
 
     public float time = 2f;
-
     public float timeStore = 2f;
 
+    //Resets the timer
     private void Awake() {
         time = timeStore;
     }
 
-
-    // Update is called once per frame
+    //Reloads to the main scene
     void Update()
     {
         time -= Time.deltaTime;
