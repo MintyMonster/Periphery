@@ -129,6 +129,7 @@ public class GirlEnemyAI : MonoBehaviour
         CanAggro = false;
         HandleRandomRoam();
         StartCoroutine(AggroEnumurator(Seconds));
+        GirlEnemySeenMeter.hasPlayedGirl = false;
     }
 
     // Wait for time

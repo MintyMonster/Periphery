@@ -14,8 +14,8 @@ public class FloatingText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mainCam = Camera.main.transform;
-        transform.SetParent(worldSpaceCanvas);
+        //mainCam = Camera.main.transform;
+        //transform.SetParent(worldSpaceCanvas);
     }
 
     // Update is called once per frame

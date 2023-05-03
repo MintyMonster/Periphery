@@ -57,7 +57,7 @@ public class Target : MonoBehaviour
                     x.GetComponent<EnemyAI>().HandleRandomRoam();
                     x.GetComponent<SeenMeter>().SeenGauge = 0;
                     SeenMeter.hasPlayed = false;
-                    GirlEnemySeenMeter.hasPlayedGirl = false;
+                    //GirlEnemySeenMeter.hasPlayedGirl = false;
                 });
 
                 gameObject.GetComponent<MeshRenderer>().material = gameCompleteMaterial;
