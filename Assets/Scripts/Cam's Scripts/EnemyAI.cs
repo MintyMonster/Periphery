@@ -60,6 +60,9 @@ public class EnemyAI : MonoBehaviour
             AgentAhead();
         }
 
+
+        // Made by James Pennell
+        // Triggers animations and aduio.
         if (Speed >= 0.51f)
         {
             animator.SetBool("speed", false);

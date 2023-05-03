@@ -19,6 +19,9 @@ public class FloatingText : MonoBehaviour
     }
 
     // Update is called once per frame
+
+    // Made by James Pennell
+    // Enables flaoting text.
     void Update()
     {
         transform.rotation = Quaternion.LookRotation(transform.position - mainCam.transform.position); // look at camera

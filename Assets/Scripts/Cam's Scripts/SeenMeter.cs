@@ -42,7 +42,8 @@ public class SeenMeter : MonoBehaviour
         hasPlayed = false;
     }
 
-    // Update is called once per frame
+    // Made by James Pennell
+    // Triggers animations and aduio.
     void Update()
     {
         AddSpeed();

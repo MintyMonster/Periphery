@@ -50,7 +50,8 @@ public class GirlEnemyAI : MonoBehaviour
             HandleDestinationReached();
         }
 
-        // Animator stuff here for James
+        // Made by James Pennell
+        // Triggers animations and aduio.
         if (Speed >= 0.51f)
         {
             animator.SetBool("speed", false);
@@ -76,7 +77,8 @@ public class GirlEnemyAI : MonoBehaviour
             }
         }
 
-        // Killing girl handler
+        // Made by James Pennell
+        // Triggers animations and aduio.
         if (GameCompleteManager.girldeathAnimationPlay)
         {
             animator.SetBool("dead", true);

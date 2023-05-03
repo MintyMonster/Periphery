@@ -37,7 +37,8 @@ public class GirlEnemySeenMeter : MonoBehaviour
         AddSpeed();
         if (Seen) agent.SetDestination(Player.position);
 
-        // Animator stuff for james
+        // Made by James Pennell
+        // Triggers animations and aduio.
         if (SeenGauge >= 0.1f)
         {
             animator.SetBool("isNoticed", true);
